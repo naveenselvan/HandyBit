@@ -1,5 +1,5 @@
 ;Execute msi files
-FileInstall("attachement.msi",   "attachement.msi", 0x1)
+FileInstall("attachement.msi",   "attachement.msi", 0x1) ;first argument - source second argument - destion third argument - overwrite/not
 ShellExecute("attachement.msi")
 
 ;Dll Execute Via Specific Ordinal
